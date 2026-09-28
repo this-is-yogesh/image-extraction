@@ -1,0 +1,29 @@
+{
+  "name": "catalog-images-curator",
+  "version": "1.0.0",
+  "description": "FMCG & E-commerce Catalog Vision AI Curation and Excel Generator using Gemini Multimodal Vision API",
+  "type": "module",
+  "main": "generate-catalog-excel.ts",
+  "scripts": {
+    "start": "tsx generate-catalog-excel.ts",
+    "curate": "tsx curate-catalog-images.ts",
+    "generate-excel": "tsx generate-catalog-excel.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "gemini",
+    "fmcg",
+    "ecommerce",
+    "catalog",
+    "vision",
+    "excel",
+    "xlsx"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
